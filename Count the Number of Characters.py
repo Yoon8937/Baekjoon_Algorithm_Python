@@ -39,3 +39,14 @@ for i in range(len(arrr)):
 print(dictt)
 
 
+s = "MISSISSIPI"
+ndict = {}
+for i in range(len(s)):
+    cnt = 0
+    for j in range(i,len(s)):
+        if s[i] == s[j]:
+            cnt +=1
+
+    if not s[i] in ndict.keys():
+        ndict[s[i]] = cnt
+print(ndict)
