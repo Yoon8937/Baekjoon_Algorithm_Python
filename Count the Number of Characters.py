@@ -50,3 +50,35 @@ for i in range(len(s)):
     if not s[i] in ndict.keys():
         ndict[s[i]] = cnt
 print(ndict)
+
+
+# 1 4 4 0 0 0 0 0 1 0
+# 처음나온 알파벳만 카운트. 만약에 뒤에 같은 알파벳이 나오면 스킵(0넣기)
+# word = "MISSISSIPI"
+arr = list(set(word))
+print(arr)
+nums = [] #카운트 된 수를 저장할 리스트. 만약 전에 같은 알파벳이 나왔으면 0 넣기
+lttr = [] #중복되지 않는 알파벳을 저장할 리스트.  ex) M,I,S,P
+for i in range(len(word)):
+    cnt = 0
+    if not word[i] in lttr: #word[i]가 lttr리스트에 없을때
+        lttr.append(word[i])
+        for j in range(len(word)):
+        # for j in range(i,len(word)):
+            if word[i] == word[j]:
+                cnt +=1
+        nums.append(cnt)
+    else: #word[i]가 lttr리스트에 있으면 nums리스트에 그냥 0추가
+        nums.append(0)
+print(nums)
+print(lttr)
+
+
+
+
+
+
+
+
+
+
