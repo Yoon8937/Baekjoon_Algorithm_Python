@@ -1,31 +1,3 @@
-import sys
-n = int(input())
-stack = []
-for i in range(n):
-    arr = sys.stdin.readline().split()
-    if len(arr) > 1:
-        stack.append(arr[1])
-        continue
-    if arr[0] == "top":
-        if len(stack)==0:
-            print(-1)
-        else:
-            print(stack[-1:][0])
-    elif arr[0] == "size":
-        print(len(stack))
-    elif arr[0] == 'empty':
-        if len(stack)==0:
-            print(1)
-        else:
-            print(0)
-    elif arr[0] == 'pop':
-        if len(stack)==0:
-            print(-1)
-        else:
-            print(stack.pop())
-
-
-
 ### 코드 예술이네ㄷㄷ. 공부 더 해야할듯ㅠㅠ
 ### 더 나은 풀이(다른사람)
 import sys

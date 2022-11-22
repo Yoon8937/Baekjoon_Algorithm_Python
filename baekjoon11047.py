@@ -1,7 +1,7 @@
-# length, money= map(int,input().split())
-# arr=[]
-money= 55000
-arr = [1,5,10,50,100,500,1000,5000,10000,50000]
+length, money= map(int,input().split())
+arr=[]
+# money= 55000
+# arr = [1,5,10,50,100,500,1000,5000,10000,50000]
 for i in range(length):
     num = int(input())
     arr.append(num)
