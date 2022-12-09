@@ -30,7 +30,7 @@ print(answer)
 
 # 답 : [3, 6, 2, 7, 5, 1, 4]
 
-### 다른 사람 풀이(코드가 예술이만...)
+### 다른 사람 풀이(코드가 예술이구만...)
 from collections import deque
 n, num = 7, 3
 queue = deque([1, 2, 3, 4, 5, 6, 7])
