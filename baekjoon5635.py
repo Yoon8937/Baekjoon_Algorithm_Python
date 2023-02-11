@@ -9,9 +9,8 @@ for i in range(n):
     dic[y+m[::-1]+d[::-1]] = name
 arr = sorted(dic.items())
 
-print(arr[-1::][0][1]
+print(arr[-1::][0][1])
 print(arr[1][1])
-
 
 
 
