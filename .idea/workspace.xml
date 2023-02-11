@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6852a52f-0192-4794-af64-c01a4884a4a6" name="Changes" comment="this is testing github" />
+    <list default="true" id="6852a52f-0192-4794-af64-c01a4884a4a6" name="Changes" comment="Hello World">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/★★★★★★★★★★★★★★★★.py" beforeDir="false" afterPath="$PROJECT_DIR$/★★★★★★★★★★★★★★★★.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -254,20 +257,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1647954668519</updated>
-    </task>
-    <task id="LOCAL-00013" summary="스택">
-      <created>1668741370295</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1668741370295</updated>
-    </task>
-    <task id="LOCAL-00014" summary="A+B - 4">
-      <created>1668844503179</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1668844503179</updated>
     </task>
     <task id="LOCAL-00015" summary="프린터 큐">
       <created>1669091341863</created>
@@ -598,7 +587,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676088711146</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="Hello World">
+      <created>1676122544314</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1676122544315</updated>
+    </task>
+    <task id="LOCAL-00063" summary="Hello World">
+      <created>1676122947755</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1676122947755</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -613,7 +616,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="괄호" />
     <MESSAGE value="재귀함수가 뭔가요?" />
     <MESSAGE value="시발" />
     <MESSAGE value="주유소" />
@@ -638,7 +640,8 @@
     <MESSAGE value="완전제곱수" />
     <MESSAGE value="생일" />
     <MESSAGE value="this is testing github" />
-    <option name="LAST_COMMIT_MESSAGE" value="this is testing github" />
+    <MESSAGE value="Hello World" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hello World" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
