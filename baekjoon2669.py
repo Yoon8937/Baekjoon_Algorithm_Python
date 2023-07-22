@@ -30,7 +30,22 @@ for i in matrix:
 print(len(set(a)))
 
 
+### 더 나은 풀이를 보고, 다시 풀어 본 나의 풀이
+# set을 할 때는 변형 불가능한 값이여야 한다. 즉 리스트는 안됨. 튜플로 해야됨.
+n = 4
+xny = []
+for i in range(n):
+    tmp = list(map(int,input().split()))
+    xny.append(tmp)
+print(xny)
 
+ans = []
+for i in range(n):
+
+    for j in range(xny[i][1], xny[i][3]):
+        for k in range(xny[i][0],xny[i][2]):
+            ans.append([j,k])  # !주의! [j,k]리스트로 하면 set이 안됨 ()튜플로 해야된다.
+print(len(set(ans)))
 
 
 
