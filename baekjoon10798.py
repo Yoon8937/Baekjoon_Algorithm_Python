@@ -14,7 +14,7 @@ print(arr)
 
 sen = ""
 
-# 이걸 1시간이 걸리면 어떡해...
+# 이걸 1시간이 걸리면 어떡해...시발 이거 하는데 1시간....좀 아니다
 for i in range(mx):
     for j in range(n):
         sen += arr[j][i]
